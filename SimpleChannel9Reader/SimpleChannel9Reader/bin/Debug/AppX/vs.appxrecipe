@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>R930</Machine>
+    <WindowsUser>Don</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>35813CF9564570CA2181DD77F86DD3B678AEFAA4C87C95E12FE102918D91A406</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>14d207d3-f912-4b11-8af3-de36d52b4b78_1.0.0.0_neutral__ts4x3ns1shrp2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>14d207d3-f912-4b11-8af3-de36d52b4b78_ts4x3ns1shrp2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>14d207d3-f912-4b11-8af3-de36d52b4b78</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Don</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-24T13:47:18.836</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2012-12-24T15:06:07.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-11-05T17:30:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-12-24T15:10:49.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-12-24T13:47:18.046</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
