@@ -27,6 +27,19 @@
             });
         }
 
+        function backButtonClick(e) {
+            articlecontent.style.display = "none";
+            articlelist.style.display = "";
+        }
+
+        function itemInvoked(e) {
+            var currentArticle = articlesList.getAt(e.detail.itemIndex);
+            WinJS.Utilities.setInnerHTMLUnsafe(articlecontent, currentArticle.content);
+            articlelist.style.display = "none";
+            articlecontent.style.display = "";
+            WinJS.UI.Animation.enterPage(articlecontent);
+        }
+
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
                 // TODO: 這個應用程式剛啟動。請在這裡初始化
@@ -35,10 +48,15 @@
                 // TODO: 這個應用程式已經從擱置重新啟用。
                 // 請在這裡還原應用程式狀態。
             }
+            var articlelistElement = document.getElementById("articlelist");
+            articlelistElement.addEventListener("iteminvoked", itemInvoked);
+            backbutton.addEventListener("click", backButtonClick);
+
             articlesList = new WinJS.Binding.List();
             var publicMembers = { ItemList: articlesList };
             WinJS.Namespace.define("C9Data", publicMembers);
             args.setPromise(WinJS.UI.processAll().then(downloadC9BlogFeed));
+            WinJS.UI.Animation.enterPage(articlelist);
         }
     };
 

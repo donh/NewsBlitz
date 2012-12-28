@@ -16,13 +16,13 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-24T13:47:18.836</Modified>
+      <Modified>2012-12-28T15:15:26.806</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-28T14:50:18.153</Modified>
+      <Modified>2012-12-28T15:23:37.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -46,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-12-28T13:53:45.322</Modified>
+      <Modified>2012-12-28T15:30:33.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\css\default.css">
       <PackagePath>css\default.css</PackagePath>
