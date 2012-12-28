@@ -1,1 +1,1 @@
-C:\Users\Don\Documents\Visual Studio 2012\Projects\SimpleChannel9Reader\SimpleChannel9Reader\SimpleChannel9Reader.jsproj;neutral
+C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\SimpleChannel9Reader.jsproj;neutral

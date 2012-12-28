@@ -2,13 +2,31 @@
 // http://go.microsoft.com/fwlink/?LinkId=232509
 (function () {
     "use strict";
-
     WinJS.Binding.optimizeBindingReferences = true;
 
     var app = WinJS.Application;
+    
     var activation = Windows.ApplicationModel.Activation;
 
     app.onactivated = function (args) {
+        var articlesList;
+
+        function downloadC9BlogFeed() {
+            WinJS.xhr({ url: "http://channel9.msdn.com/coding4fun/articles/RSS" }).then(function (rss) {
+                var items = rss.responseXML.querySelectorAll("item");
+                for (var n = 0; n < items.length; n++) {
+                    var article = {};
+                    article.title = items[n].querySelector("title").textContent;
+                    var thumbs = items[n].querySelectorAll("thumbnail");
+                    if (thumbs.length > 1) {
+                        article.thumbnail = thumbs[1].attributes.getNamedItem("url").textContent;
+                        article.content = items[n].textContent;
+                        articlesList.push(article);
+                    }
+                }
+            });
+        }
+
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
                 // TODO: 這個應用程式剛啟動。請在這裡初始化
@@ -17,7 +35,10 @@
                 // TODO: 這個應用程式已經從擱置重新啟用。
                 // 請在這裡還原應用程式狀態。
             }
-            args.setPromise(WinJS.UI.processAll());
+            articlesList = new WinJS.Binding.List();
+            var publicMembers = { ItemList: articlesList };
+            WinJS.Namespace.define("C9Data", publicMembers);
+            args.setPromise(WinJS.UI.processAll().then(downloadC9BlogFeed));
         }
     };
 
