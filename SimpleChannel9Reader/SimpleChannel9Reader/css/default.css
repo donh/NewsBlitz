@@ -38,12 +38,27 @@
         height: 100%;
     }
     #articlelist .win-item {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .listItemTemplate {
+    	margin: 8px;
+    }
+
+    .listItemTemplate img {
+    	width: 234px;
+    	height: 165px;
+    }
+
+    .win-surface {
+    	left: 112px;
     }
 }
 
 @media screen and (-ms-view-state: filled) {
+	.newStyle1 {
+	}
 }
 
 @media screen and (-ms-view-state: snapped) {
