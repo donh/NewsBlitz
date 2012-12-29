@@ -61,6 +61,9 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\NYTindex.html">
       <PackagePath>pages\NYTindex.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\exaple.html">
+      <PackagePath>pages\exaple.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\showFBfr.html">
       <PackagePath>pages\showFBfr.html</PackagePath>
     </AppxPackagedFile>

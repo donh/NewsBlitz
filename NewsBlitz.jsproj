@@ -86,7 +86,11 @@
     <Content Include="pages\login\login.html" />
     <Content Include="pages\login\login.js" />
     <Content Include="pages\NYTindex.html" />
+    <Content Include="pages\exaple.html" />
     <Content Include="pages\showFBfr.html" />
+    <Content Include="pages\timer\timer.css" />
+    <Content Include="pages\timer\timer.html" />
+    <Content Include="pages\timer\timer.js" />
     <None Include="NewsBlitz_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
