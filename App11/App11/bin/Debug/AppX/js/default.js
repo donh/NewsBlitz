@@ -2,19 +2,11 @@
 // http://go.microsoft.com/fwlink/?LinkId=232509
 (function () {
     "use strict";
-
-   var myData = new WinJS.Binding.List([
-        { title: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/60Banana.png", style: "color:#000;" },
-        { title: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/60Lemon.png", style: "width:100%;height:10px;background:#fff" },
-
-    ]);
-
-    myData.push('{"title":"hihi2","text":"yaya"}');
+       
+//    myData.push({"title":"hihi2","text":"yaya"});
     //var show = JSON.parse(myData._keyMap[1].data)
     //console.log(show.yoyo);
-
-
-
+    
     WinJS.Binding.optimizeBindingReferences = true;
 
     var sampleTitle = "New_Blitz";

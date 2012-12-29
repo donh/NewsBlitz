@@ -6,6 +6,7 @@
     <title></title>
     <script src="/js/data.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/nytdata.js"></script>
 </head>
 <body>
        <!--<div class="layouts_grid" id="layouts_grid">
@@ -22,10 +23,12 @@
         <div id="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
             <div class="smallListIconTextItem">
                <!-- <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />-->
-                <div class="smallListIconTextItem-Detail">
+                <div class="smallListIconTextItem-Detail" data-win-bind="src: url">
                     <div id="hihi"></div>
                     <h4 data-win-bind="innerText: title"></h4>
+<!--
                     <h6 data-win-bind="innerText: text"></h6>
+-->
                 </div>
             </div>
         </div>  
@@ -35,7 +38,7 @@
             class="win-selectionstylefilled"
             data-win-control="WinJS.UI.ListView" 
             data-win-options="{ 
-                itemDataSource: myData.dataSource, 
+                itemDataSource: nytimesData.dataSource, 
                 itemTemplate: smallListIconTextTemplate, 
                 selectionMode: 'none', 
                 tapBehavior: 'none', 
