@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T11:06:43.329</Modified>
+      <Modified>2012-12-29T11:45:31.795</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -34,7 +34,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-12-29T09:45:11.344</Modified>
+      <Modified>2012-12-29T11:20:05.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\css\allscenarios.css">
+      <PackagePath>pages\DragAndDrop\css\allscenarios.css</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\css\base-sdk.css">
+      <PackagePath>pages\DragAndDrop\css\base-sdk.css</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
@@ -44,9 +52,13 @@
       <PackagePath>pages\login\login.css</PackagePath>
       <Modified>2012-12-29T10:04:01.745</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.css">
+      <PackagePath>pages\timer\timer.css</PackagePath>
+      <Modified>2012-12-29T11:28:11.962</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-29T11:06:40.933</Modified>
+      <Modified>2012-12-29T11:07:20.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\home.html">
       <PackagePath>html\home.html</PackagePath>
@@ -59,6 +71,26 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
       <PackagePath>html\loadingRSS.html</PackagePath>
       <Modified>2012-12-29T08:58:03.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\default.html">
+      <PackagePath>pages\DragAndDrop\default.html</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario1.html">
+      <PackagePath>pages\DragAndDrop\scenario1.html</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario2.html">
+      <PackagePath>pages\DragAndDrop\scenario2.html</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario3.html">
+      <PackagePath>pages\DragAndDrop\scenario3.html</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario4.html">
+      <PackagePath>pages\DragAndDrop\scenario4.html</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\editFBfr.html">
       <PackagePath>pages\editFBfr.html</PackagePath>
@@ -92,6 +124,10 @@
       <PackagePath>pages\showFBfr.html</PackagePath>
       <Modified>2012-12-29T10:08:40.208</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.html">
+      <PackagePath>pages\timer\timer.html</PackagePath>
+      <Modified>2012-12-29T11:32:42.670</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -111,6 +147,62 @@
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\background-sdk.png">
+      <PackagePath>pages\DragAndDrop\images\background-sdk.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyCircle.png">
+      <PackagePath>pages\DragAndDrop\images\emptyCircle.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyCircle2.png">
+      <PackagePath>pages\DragAndDrop\images\emptyCircle2.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptySquare.png">
+      <PackagePath>pages\DragAndDrop\images\emptySquare.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptySquare2.png">
+      <PackagePath>pages\DragAndDrop\images\emptySquare2.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyTriangle.png">
+      <PackagePath>pages\DragAndDrop\images\emptyTriangle.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyTriangle2.png">
+      <PackagePath>pages\DragAndDrop\images\emptyTriangle2.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledCircle.png">
+      <PackagePath>pages\DragAndDrop\images\filledCircle.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledSquare.png">
+      <PackagePath>pages\DragAndDrop\images\filledSquare.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledTriangle.png">
+      <PackagePath>pages\DragAndDrop\images\filledTriangle.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\ie-sdk.png">
+      <PackagePath>pages\DragAndDrop\images\ie-sdk.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\microsoft-sdk.png">
+      <PackagePath>pages\DragAndDrop\images\microsoft-sdk.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\placeholder-sdk.png">
+      <PackagePath>pages\DragAndDrop\images\placeholder-sdk.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\smiley.png">
+      <PackagePath>pages\DragAndDrop\images\smiley.png</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\block.js">
       <PackagePath>js\block.js</PackagePath>
@@ -156,6 +248,18 @@
       <PackagePath>js\showwallFBfr.js</PackagePath>
       <Modified>2012-12-29T09:56:59.892</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\base-sdk.js">
+      <PackagePath>pages\DragAndDrop\script\base-sdk.js</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\scenario2_and_3.js">
+      <PackagePath>pages\DragAndDrop\script\scenario2_and_3.js</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\scenario4.js">
+      <PackagePath>pages\DragAndDrop\script\scenario4.js</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
       <Modified>2012-12-29T10:02:05.629</Modified>
@@ -164,9 +268,17 @@
       <PackagePath>pages\login\login.js</PackagePath>
       <Modified>2012-12-29T10:04:57.043</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.js">
+      <PackagePath>pages\timer\timer.js</PackagePath>
+      <Modified>2012-06-26T08:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\Thumbs.db">
+      <PackagePath>pages\DragAndDrop\images\Thumbs.db</PackagePath>
+      <Modified>2012-12-20T00:25:32.838</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-29T11:06:43.106</Modified>
+      <Modified>2012-12-29T11:45:31.617</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

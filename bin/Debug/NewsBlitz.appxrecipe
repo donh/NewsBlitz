@@ -25,12 +25,6 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\css\allscenarios.css">
-      <PackagePath>pages\DragAndDrop\css\allscenarios.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\css\base-sdk.css">
-      <PackagePath>pages\DragAndDrop\css\base-sdk.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
@@ -51,21 +45,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
       <PackagePath>html\loadingRSS.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\default.html">
-      <PackagePath>pages\DragAndDrop\default.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario1.html">
-      <PackagePath>pages\DragAndDrop\scenario1.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario2.html">
-      <PackagePath>pages\DragAndDrop\scenario2.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario3.html">
-      <PackagePath>pages\DragAndDrop\scenario3.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\scenario4.html">
-      <PackagePath>pages\DragAndDrop\scenario4.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\editFBfr.html">
       <PackagePath>pages\editFBfr.html</PackagePath>
@@ -110,48 +89,6 @@
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\background-sdk.png">
-      <PackagePath>pages\DragAndDrop\images\background-sdk.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyCircle.png">
-      <PackagePath>pages\DragAndDrop\images\emptyCircle.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyCircle2.png">
-      <PackagePath>pages\DragAndDrop\images\emptyCircle2.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptySquare.png">
-      <PackagePath>pages\DragAndDrop\images\emptySquare.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptySquare2.png">
-      <PackagePath>pages\DragAndDrop\images\emptySquare2.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyTriangle.png">
-      <PackagePath>pages\DragAndDrop\images\emptyTriangle.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\emptyTriangle2.png">
-      <PackagePath>pages\DragAndDrop\images\emptyTriangle2.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledCircle.png">
-      <PackagePath>pages\DragAndDrop\images\filledCircle.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledSquare.png">
-      <PackagePath>pages\DragAndDrop\images\filledSquare.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\filledTriangle.png">
-      <PackagePath>pages\DragAndDrop\images\filledTriangle.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\ie-sdk.png">
-      <PackagePath>pages\DragAndDrop\images\ie-sdk.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\microsoft-sdk.png">
-      <PackagePath>pages\DragAndDrop\images\microsoft-sdk.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\placeholder-sdk.png">
-      <PackagePath>pages\DragAndDrop\images\placeholder-sdk.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\smiley.png">
-      <PackagePath>pages\DragAndDrop\images\smiley.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\block.js">
       <PackagePath>js\block.js</PackagePath>
     </AppxPackagedFile>
@@ -185,15 +122,6 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\showwallFBfr.js">
       <PackagePath>js\showwallFBfr.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\base-sdk.js">
-      <PackagePath>pages\DragAndDrop\script\base-sdk.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\scenario2_and_3.js">
-      <PackagePath>pages\DragAndDrop\script\scenario2_and_3.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\scenario4.js">
-      <PackagePath>pages\DragAndDrop\script\scenario4.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
     </AppxPackagedFile>
@@ -202,9 +130,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.js">
       <PackagePath>pages\timer\timer.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\Thumbs.db">
-      <PackagePath>pages\DragAndDrop\images\Thumbs.db</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
