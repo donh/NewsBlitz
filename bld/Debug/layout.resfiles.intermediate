@@ -23,7 +23,6 @@ js\home.js
 js\index.js
 js\loadingRSS.js
 js\navigator.js
-js\nytdata.js
 js\showwallFBfr.js
 pages\bigBox\bigBox.css
 pages\bigBox\bigBox.html
@@ -67,6 +66,13 @@ pages\old\old.css
 pages\old\old.html
 pages\old\old.js
 pages\showFBfr.html
+pages\smallBox\bloombergdata.js
+pages\smallBox\cnndata.js
+pages\smallBox\economistdata.js
+pages\smallBox\nytdata.js
+pages\smallBox\smallBox.css
+pages\smallBox\smallBox.html
+pages\smallBox\smallBox.js
 pages\timer\css\allscenarios.css
 pages\timer\css\base-sdk.css
 pages\timer\images\background-sdk.png

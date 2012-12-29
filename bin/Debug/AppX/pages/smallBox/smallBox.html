@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+    <link href="bigBox.css" rel="stylesheet" />
+    <script src="bigBox.js"></script>
+
+    </head>
+    <body>
+         <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template">
+        <div>
+
+            <!-- Displays the "picture" field. -->
+            <img data-win-bind="alt: source; src: picture" />
+            <div>
+
+                <!-- Displays the "title" field. -->
+                <h4 data-win-bind="innerText: source"></h4>
+
+                <!-- Displays the "text" field. --> 
+                <h6 data-win-bind="innerText: description"></h6>
+            </div>
+        </div>
+    </div>     
+
+    <div id="basicListView" data-win-control="WinJS.UI.ListView" 
+        data-win-options="{itemDataSource : DataExample.itemList.dataSource, itemTemplate: select('#mediumListIconTextTemplate')}">
+    </div>
+    </body>
+</html>

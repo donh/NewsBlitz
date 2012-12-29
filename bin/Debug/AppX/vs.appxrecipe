@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T18:15:20.803</Modified>
+      <Modified>2012-12-29T19:22:19.329</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -35,6 +35,10 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2012-12-29T14:49:00.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.css">
+      <PackagePath>pages\smallBox\smallBox.css</PackagePath>
+      <Modified>2012-12-29T17:03:59.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.css">
       <PackagePath>pages\bigBox\bigBox.css</PackagePath>
@@ -87,6 +91,10 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
       <PackagePath>html\loadingRSS.html</PackagePath>
       <Modified>2012-12-29T14:49:00.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.html">
+      <PackagePath>pages\smallBox\smallBox.html</PackagePath>
+      <Modified>2012-12-29T18:45:16.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.html">
       <PackagePath>pages\bigBox\bigBox.html</PackagePath>
@@ -332,17 +340,33 @@
       <PackagePath>js\navigator.js</PackagePath>
       <Modified>2012-12-29T14:49:00.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\nytdata.js">
-      <PackagePath>js\nytdata.js</PackagePath>
-      <Modified>2012-12-29T14:49:00.256</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\showwallFBfr.js">
       <PackagePath>js\showwallFBfr.js</PackagePath>
       <Modified>2012-12-29T14:49:00.278</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\bloombergdata.js">
+      <PackagePath>pages\smallBox\bloombergdata.js</PackagePath>
+      <Modified>2012-12-29T18:59:26.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\economistdata.js">
+      <PackagePath>pages\smallBox\economistdata.js</PackagePath>
+      <Modified>2012-12-29T19:11:30.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\cnndata.js">
+      <PackagePath>pages\smallBox\cnndata.js</PackagePath>
+      <Modified>2012-12-29T19:21:56.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\nytdata.js">
+      <PackagePath>pages\smallBox\nytdata.js</PackagePath>
+      <Modified>2012-12-29T19:11:27.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.js">
+      <PackagePath>pages\smallBox\smallBox.js</PackagePath>
+      <Modified>2012-12-29T18:33:00.959</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.js">
       <PackagePath>pages\bigBox\bigBox.js</PackagePath>
-      <Modified>2012-12-29T18:32:48.175</Modified>
+      <Modified>2012-12-29T18:33:00.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\base-sdk.js">
       <PackagePath>pages\DragAndDrop\script\base-sdk.js</PackagePath>
@@ -386,7 +410,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-29T18:15:20.701</Modified>
+      <Modified>2012-12-29T19:22:19.262</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

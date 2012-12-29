@@ -78,8 +78,14 @@
     <Content Include="js\index.js" />
     <Content Include="js\loadingRSS.js" />
     <Content Include="js\navigator.js" />
-    <Content Include="js\nytdata.js" />
     <Content Include="js\showwallFBfr.js" />
+    <Content Include="pages\smallBox\bloombergdata.js" />
+    <Content Include="pages\smallBox\economistdata.js" />
+    <Content Include="pages\smallBox\cnndata.js" />
+    <Content Include="pages\smallBox\nytdata.js" />
+    <Content Include="pages\smallBox\smallBox.css" />
+    <Content Include="pages\smallBox\smallBox.html" />
+    <Content Include="pages\smallBox\smallBox.js" />
     <Content Include="pages\bigBox\bigBox.css" />
     <Content Include="pages\bigBox\bigBox.html" />
     <Content Include="pages\bigBox\bigBox.js" />

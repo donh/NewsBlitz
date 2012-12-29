@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.css">
+      <PackagePath>pages\smallBox\smallBox.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.css">
       <PackagePath>pages\bigBox\bigBox.css</PackagePath>
     </AppxPackagedFile>
@@ -63,6 +66,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
       <PackagePath>html\loadingRSS.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.html">
+      <PackagePath>pages\smallBox\smallBox.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.html">
       <PackagePath>pages\bigBox\bigBox.html</PackagePath>
@@ -248,11 +254,23 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\nytdata.js">
-      <PackagePath>js\nytdata.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\showwallFBfr.js">
       <PackagePath>js\showwallFBfr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\bloombergdata.js">
+      <PackagePath>pages\smallBox\bloombergdata.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\economistdata.js">
+      <PackagePath>pages\smallBox\economistdata.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\cnndata.js">
+      <PackagePath>pages\smallBox\cnndata.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\nytdata.js">
+      <PackagePath>pages\smallBox\nytdata.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.js">
+      <PackagePath>pages\smallBox\smallBox.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.js">
       <PackagePath>pages\bigBox\bigBox.js</PackagePath>
