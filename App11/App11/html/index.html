@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="/js/data.js"></script>
+    <script src="/js/index.js"></script>
+</head>
+<body>
+       <!--<div class="layouts_grid" id="layouts_grid">
+<ul>
+<li class="layout_block" data-id="7" data-row="1" data-col="1" data-sizex="1" data-sizey="1" style="background-color: #D24726;">
+<div class="remove_element">X</div>
+<div class="info">
+<span class="block_name">Logo</span>
+</div> 
+</li>
+    </div>-->
+    <div data-win-control="Contoso.UI.HelloWorld"></div>
+    <div data-win-control="new_Blitz.ScenarioOutput">
+        <div id="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+            <div class="smallListIconTextItem">
+               <!-- <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />-->
+                <div class="smallListIconTextItem-Detail">
+                    <div id="hihi"></div>
+                    <h4 data-win-bind="innerText: title"></h4>
+                    <h6 data-win-bind="innerText: text"></h6>
+                </div>
+            </div>
+        </div>  
+        <!-- The declarative markup necesary for ListView instantiation -->
+        <!-- Call WinJS.UI.processAll() in your initialization code -->
+        <div id="listView" 
+            class="win-selectionstylefilled"
+            data-win-control="WinJS.UI.ListView" 
+            data-win-options="{ 
+                itemDataSource: myData.dataSource, 
+                itemTemplate: smallListIconTextTemplate, 
+                selectionMode: 'none', 
+                tapBehavior: 'none', 
+                swipeBehavior: 'none', 
+                layout: { type: WinJS.UI.GridLayout } 
+            }"
+        ></div>
+        </div>
+</body>
+</html>

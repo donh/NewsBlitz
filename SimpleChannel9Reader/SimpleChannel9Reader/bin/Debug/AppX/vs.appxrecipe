@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-28T15:15:26.806</Modified>
+      <Modified>2012-12-29T02:05:17.344</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
