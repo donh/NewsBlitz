@@ -6,5 +6,21 @@ var facebookData = new WinJS.Binding.List([
    { "title": "hihi2", "text": "yaya" }
 ]);
 
+var facebookClosedfriend = new WinJS.Binding.List([
+]);
 
-//facebookData.push({ "title": "hihi2", "text": "yaya" });
+
+function showclosedfrienddata() {
+    var localSettings = Windows.Storage.ApplicationData.current.localSettings;
+    var myclosedfriendsLS_id = localSettings.values['myclosedfriendslocalstorage_id'];
+    var myclosedfriendsLS_name = localSettings.values['myclosedfriendslocalstorage_name'];
+    var showmyclosedfriends_name = JSON.parse(myclosedfriendsLS_name);
+    var showmyclosedfriends_id = JSON.parse(myclosedfriendsLS_id);
+    for (var key in showmyclosedfriends_name){
+        var name  = showmyclosedfriends_name[key];
+        var id = showmyclosedfriends_id[key];
+        facebookClosedfriend.push({ "name": name, "id": id });
+    }
+    console.log(facebookClosedfriend);
+    //console.log('br');
+}

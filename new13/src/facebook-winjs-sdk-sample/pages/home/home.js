@@ -72,6 +72,10 @@
                 }
                 console.log(myclosedfriends_id_array);
                 console.log(myclosedfriends_name_array);
+                
+                localSettings.values['myclosedfriendslocalstorage_id'] = JSON.stringify(myclosedfriends_id_array);
+                localSettings.values['myclosedfriendslocalstorage_name'] = JSON.stringify(myclosedfriends_name_array);
+                showclosedfrienddata()
                 console.log('br');
             });
         }

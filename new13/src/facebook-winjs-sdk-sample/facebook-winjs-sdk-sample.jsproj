@@ -66,6 +66,7 @@
     <Content Include="js\facebookdata.js" />
     <Content Include="js\fb.js" />
     <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="js\loadingRSS.js" />
     <Content Include="js\navigator.js" />
     <Content Include="js\showallFBfr.js" />
     <Content Include="packages.config" />
