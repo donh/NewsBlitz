@@ -4,9 +4,36 @@
     "use strict";
 
    var myData = new WinJS.Binding.List([
-        { title: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/60Banana.png", style: "color:#000;" },
-        { title: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/60Lemon.png", style: "width:100%;height:10px;background:#fff" },
+//        { title: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/60Banana.png", style: "color:#000;" },
+//        { title: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/60Lemon.png", style: "width:100%;height:10px;background:#fff" },
 
+        { title: "Arts", url: "http://www.nytimes.com/services/xml/rss/nyt/Arts.xml"},
+        { title: "Automobiles", url: "http://www.nytimes.com/services/xml/rss/nyt/Automobiles.xml"},
+        { title: "Books", url: "http://www.nytimes.com/services/xml/rss/nyt/Books.xml"},
+        { title: "Business", url: "http://www.nytimes.com/services/xml/rss/nyt/Business.xml"},
+        { title: "Campaign 2004", url: "http://www.nytimes.com/services/xml/rss/nyt/Campaigns.xml"},
+        { title: "Circuits", url: "http://www.nytimes.com/services/xml/rss/nyt/Circuits.xml"},
+        { title: "Editorials/Op-Ed", url: "http://www.nytimes.com/services/xml/rss/nyt/Opinion.xml"},
+        { title: "Fashion & Style", url: "http://www.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml"},
+        { title: "Health", url: "http://www.nytimes.com/services/xml/rss/nyt/Health.xml"},
+        { title: "International", url: "http://www.nytimes.com/services/xml/rss/nyt/International.xml"},
+        { title: "Magazine", url: "http://www.nytimes.com/services/xml/rss/nyt/Magazine.xml"},
+        { title: "Media & Advertising", url: "http://www.nytimes.com/services/xml/rss/nyt/MediaandAdvertising.xml"},
+        { title: "Most E-Mailed Articles", url: "http://www.nytimes.com/services/xml/rss/nyt/pop_top.xml"},
+        { title: "Movies", url: "http://www.nytimes.com/services/xml/rss/nyt/Movies.xml"},
+        { title: "Multimedia", url: "http://www.nytimes.com/services/xml/rss/nyt/Multimedia.xml"},
+        { title: "National", url: "http://www.nytimes.com/services/xml/rss/nyt/National.xml"},
+        { title: "New York Region", url: "http://www.nytimes.com/services/xml/rss/nyt/NYRegion.xml"},
+        { title: "NYTimes.com Home Page", url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"},
+        { title: "Real Estate", url: "http://www.nytimes.com/services/xml/rss/nyt/RealEstate.xml"},
+        { title: "Science", url: "http://www.nytimes.com/services/xml/rss/nyt/Science.xml"},
+        { title: "Sports", url: "http://www.nytimes.com/services/xml/rss/nyt/Sports.xml"},
+        { title: "Technology", url: "http://www.nytimes.com/services/xml/rss/nyt/Technology.xml"},
+        { title: "Theater", url: "http://www.nytimes.com/services/xml/rss/nyt/Theater.xml"},
+        { title: "Times on the Trail", url: "http://www.nytimes.com/services/xml/rss/nyt/Trail.xml"},
+        { title: "Travel", url: "http://www.nytimes.com/services/xml/rss/nyt/Travel.xml"},
+        { title: "Washington", url: "http://www.nytimes.com/services/xml/rss/nyt/Washington.xml"},
+        { title: "Week in Review", url: "http://www.nytimes.com/services/xml/rss/nyt/WeekinReview.xml"},
     ]);
 
     myData.push('{"title":"hihi2","text":"yaya"}');
