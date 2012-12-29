@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="/js/showallFBfr.js"></script>
+    <script src="/js/facebookdata.js"></script>
+</head>
+<body>
+    <div data-win-control="Contoso.UI.HelloWorld"></div>
+        <div data-win-control="new_Blitz.ScenarioOutput">
+        <div id="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+            <div class="smallListIconTextItem">
+               <!-- <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />-->
+                <div class="smallListIconTextItem-Detail">
+                    
+                    <h4 data-win-bind="innerText: title"></h4>
+                    <h6 data-win-bind="innerText: text"></h6>
+                </div>
+            </div>
+        </div>  
+        <!-- The declarative markup necesary for ListView instantiation -->
+        <!-- Call WinJS.UI.processAll() in your initialization code -->
+        <div id="listView" 
+            class="win-selectionstylefilled"
+            data-win-control="WinJS.UI.ListView" 
+            data-win-options="{ 
+                itemDataSource: facebookdata.dataSource, 
+                itemTemplate: smallListIconTextTemplate, 
+                selectionMode: 'none', 
+                tapBehavior: 'none', 
+                swipeBehavior: 'none', 
+                layout: { type: WinJS.UI.GridLayout } 
+            }"
+        ></div>
+        </div>
+        <section aria-label="Main content" role="main">
+            <div>
+                <input type="submit" id="logout" value="logout"/>
+            </div>
+            <p>Content goes here.</p>
+        </section>
+</body>
+</html>
