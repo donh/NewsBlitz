@@ -11,7 +11,8 @@
         { url: "/pages/showallFBfr.html", title: "show all FB friend" },
         { url: "/pages/loading.html", title: "loading..." },
         { url: "/pages/editFBfr.html", title: "Edit your FB friend" },
-        { url: "/pages/editNYT.html", title: "Edit your NY Time" }
+        { url: "/pages/editNYT.html", title: "Edit your NY Time" },
+        { url: "/pages/NYTindex.html", title: "view NY Time" }
     ];
 
 
@@ -29,6 +30,7 @@
                 // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
             }
+
 
             if (app.sessionState.history) {
                 nav.history = app.sessionState.history;

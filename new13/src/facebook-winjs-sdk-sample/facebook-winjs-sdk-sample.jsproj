@@ -53,11 +53,13 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="css\block.css" />
     <Content Include="css\default.css" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
+    <Content Include="js\block.js" />
     <Content Include="js\default.js" />
     <Content Include="js\editFB.js" />
     <Content Include="js\editNYT.js" />
@@ -77,6 +79,7 @@
     <Content Include="pages\login\login.css" />
     <Content Include="pages\login\login.html" />
     <Content Include="pages\login\login.js" />
+    <Content Include="pages\NYTindex.html" />
     <Content Include="pages\showallFBfr.html" />
     <None Include="facebook-winjs-sdk-sample_TemporaryKey.pfx" />
   </ItemGroup>

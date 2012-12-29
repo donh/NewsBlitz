@@ -51,9 +51,8 @@
             console.log(getmyfriendslist)
             var closefriend_id = getmyfriendslist.data[0].id;
             getfbclosedfriend(closefriend_id);
-           
             console.log(getmyfriendslist.data[0].id)
-           // console.log('br');
+            // console.log('br');
         });
         function getfbclosedfriend(id) {
             FB.api( id+'/members', { fields: 'id,name' }, function (getmyclosedfriends) {
@@ -115,6 +114,15 @@
                 return;
             }
             console.log(getmyallfriends);
+            var myallfriends_id_array = new Array();
+            var myallfriends_name_array = new Array();
+            //console.log('br');
+            for (var listkey in getmyallfriends.data) {
+                myallfriends_id_array[listkey] = getmyallfriends.data[listkey].id;
+                myallfriends_name_array[listkey] = getmyallfriends.data[listkey].name;
+            }
+
+
             //localStorage.value['facebookuserfriends'] = getmyallfriends
             //console.log(localStorage.value['facebookuserfriends']);
             //console.log('friends' + getmyallfriends.data[0].id);
