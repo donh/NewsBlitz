@@ -22,7 +22,7 @@
             articlelistElement.addEventListener("iteminvoked", itemInvoked);
             backbutton.addEventListener("click", backButtonClick);
 
-//            var articlesList = new WinJS.Binding.List();
+            //            var articlesList = new WinJS.Binding.List();
             var publicMembers = { ItemList: articlesList };
             WinJS.Namespace.define("ExampleData", publicMembers);
 
@@ -46,8 +46,11 @@
 
     function getNewsBlitzExampleFeed() {
         WinJS.xhr({ url: "http://channel9.msdn.com/coding4fun/articles/RSS" }).then(function (rss) {
+//        WinJS.xhr({ url: "http://www.nytimes.com/services/xml/rss/nyt/Books.xml" }).then(function (rss) {
+//            console.log(rss);
+            
             var items = rss.responseXML.querySelectorAll("item");
-
+//console.log(items);
             for (var n = 0; n < items.length; n++) {
                 var article = {};
                 article.title = items[n].querySelector("title").textContent;
@@ -67,7 +70,7 @@
         // WinJS.Application.sessionState 物件，這個物件會自動
         // 在擱置間儲存並還原。如果您需要在
         // 應用程式暫停之前完成非同步作業，請呼叫
-        // args.setPromise()。
+        // args.setPromise()。ㄚ
     };
 
     app.start();

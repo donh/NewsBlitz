@@ -34,7 +34,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-29T06:03:29.093</Modified>
+      <Modified>2012-12-29T07:30:43.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\html\home.html">
       <PackagePath>html\home.html</PackagePath>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-12-29T05:43:33.279</Modified>
+      <Modified>2012-12-29T07:31:13.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\fb.js">
       <PackagePath>js\fb.js</PackagePath>
