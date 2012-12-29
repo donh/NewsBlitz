@@ -18,7 +18,8 @@
         localStorage.removeItem('fb_access_token');
         FB.setAccessToken(null);
 
-        WinJS.Navigation.navigate('/pages/login/login.html');
+//        WinJS.Navigation.navigate('/pages/login/login.html');
+        WinJS.Navigation.navigate('/pages/old/old.html');
     }
 
     function loadData() {

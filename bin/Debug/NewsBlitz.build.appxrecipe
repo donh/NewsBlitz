@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.css">
+      <PackagePath>pages\bigBox\bigBox.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\css\allscenarios.css">
       <PackagePath>pages\DragAndDrop\css\allscenarios.css</PackagePath>
     </AppxPackagedFile>
@@ -36,6 +39,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.css">
       <PackagePath>pages\login\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\old\old.css">
+      <PackagePath>pages\old\old.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\css\allscenarios.css">
+      <PackagePath>pages\timer\css\allscenarios.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\css\base-sdk.css">
+      <PackagePath>pages\timer\css\base-sdk.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.css">
       <PackagePath>pages\timer\timer.css</PackagePath>
@@ -51,6 +63,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
       <PackagePath>html\loadingRSS.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.html">
+      <PackagePath>pages\bigBox\bigBox.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\default.html">
       <PackagePath>pages\DragAndDrop\default.html</PackagePath>
@@ -85,14 +100,26 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\NYTindex.html">
       <PackagePath>pages\NYTindex.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\exaple.html">
-      <PackagePath>pages\exaple.html</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\old\old.html">
+      <PackagePath>pages\old\old.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\showFBfr.html">
       <PackagePath>pages\showFBfr.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.html">
       <PackagePath>pages\timer\timer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\bloomberg.gif">
+      <PackagePath>images\bloomberg.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\cnn.gif">
+      <PackagePath>images\cnn.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\economist.gif">
+      <PackagePath>images\economist.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\nyt.gif">
+      <PackagePath>images\nyt.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -227,6 +254,9 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\showwallFBfr.js">
       <PackagePath>js\showwallFBfr.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.js">
+      <PackagePath>pages\bigBox\bigBox.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\base-sdk.js">
       <PackagePath>pages\DragAndDrop\script\base-sdk.js</PackagePath>
     </AppxPackagedFile>
@@ -241,6 +271,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\old\old.js">
+      <PackagePath>pages\old\old.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\script\base-sdk.js">
+      <PackagePath>pages\timer\script\base-sdk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\script\scenario4.js">
+      <PackagePath>pages\timer\script\scenario4.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\timer.js">
       <PackagePath>pages\timer\timer.js</PackagePath>

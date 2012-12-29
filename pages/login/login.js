@@ -8,6 +8,8 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             WinJS.Utilities.query('#login').listen('click', loginClicked, false);
+            WinJS.Utilities.query('#NewYorkTimes').listen('click', bigBoxClicked, false);
+            WinJS.Utilities.query('#CNN').listen('click', bigBoxClicked, false);
         },
 
         unload: function () {
@@ -21,9 +23,24 @@
         }
     });
 
+    function bigBoxClicked(e) {
+        var middleBox = '';
+        WinJS.Utilities.setInnerHTMLUnsafe(middleBox, "CNN");
+//        middleBox.style.display = "";
+        WinJS.UI.Animation.enterPage(middleBox);
+/*
+        console.log(e);
+        var currentArticle = articlesList.getAt(e.detail.itemIndex);
+        WinJS.Utilities.setInnerHTMLUnsafe(articlecontent, currentArticle.content);
+        articlelist.style.display = "none";
+        articlecontent.style.display = "";
+        WinJS.UI.Animation.enterPage(articlecontent);
+*/
+    }
+
+
     function loginClicked(e) {
         e.preventDefault();
-
         var redirectUri = 'https://www.facebook.com/connect/login_success.html',
             loginUrl = 'https://www.facebook.com/dialog/oauth'
                 + '?response_type=token'

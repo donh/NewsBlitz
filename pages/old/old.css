@@ -1,0 +1,15 @@
+﻿        #middleBox {
+        	width: calc(100%-120px);
+        	height: 100%;
+        	padding-left: 120px;
+        	column-width: 480px;
+        	column-gap: 80px;
+        	overflow-x: auto;
+        	overflow-y: hidden;
+        }
+
+        #middleBox pre {
+        	background-color: #666;
+        	overflow-x: auto;
+        	overflow-y: hidden;
+        }

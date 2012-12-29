@@ -60,7 +60,11 @@
     <Content Include="html\home.html" />
     <Content Include="html\index.html" />
     <Content Include="html\loadingRSS.html" />
+    <Content Include="images\bloomberg.gif" />
+    <Content Include="images\cnn.gif" />
+    <Content Include="images\economist.gif" />
     <Content Include="images\logo.png" />
+    <Content Include="images\nyt.gif" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
@@ -76,6 +80,9 @@
     <Content Include="js\navigator.js" />
     <Content Include="js\nytdata.js" />
     <Content Include="js\showwallFBfr.js" />
+    <Content Include="pages\bigBox\bigBox.css" />
+    <Content Include="pages\bigBox\bigBox.html" />
+    <Content Include="pages\bigBox\bigBox.js" />
     <Content Include="pages\DragAndDrop\css\allscenarios.css" />
     <Content Include="pages\DragAndDrop\css\base-sdk.css" />
     <Content Include="pages\DragAndDrop\default.html" />
@@ -111,7 +118,9 @@
     <Content Include="pages\login\login.html" />
     <Content Include="pages\login\login.js" />
     <Content Include="pages\NYTindex.html" />
-    <Content Include="pages\exaple.html" />
+    <Content Include="pages\old\old.css" />
+    <Content Include="pages\old\old.html" />
+    <Content Include="pages\old\old.js" />
     <Content Include="pages\showFBfr.html" />
     <Content Include="pages\timer\css\allscenarios.css" />
     <Content Include="pages\timer\css\base-sdk.css" />

@@ -3,23 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
-    <title>NewsBlitz</title>
+    <title>News Blitz</title>
 
     <!-- WinJS 參考 -->
     <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
 
-    <!-- NewsBlitz 參考 -->
-    <link href="/css/default.css" rel="stylesheet" />
-    <script src="/js/default.js"></script>
+    <link href="old.css" rel="stylesheet" />
+    <script src="old.js"></script>
 
-    <!-- facebook_winjs_sdk_sample references -->
-    <link href="/css/default.css" rel="stylesheet" />
-    <script src="/js/fb.js"></script>
-    <!--<script src="/js/jquery-1.8.2.min.js"></script>-->
-    <script src="/js/default.js"></script>
-    <script src="/js/navigator.js"></script>
 </head>
 <body>
 <!--
@@ -42,7 +35,8 @@
         <h1 id="maintitle" class="win-title">News Blitz Rocks!</h1>
     </header>
     <section id="content">
-        <div id="articlelist" data-win-control="WinJS.UI.ListView" data-win-options="{ itemDataSource: ExampleData.ItemList.dataSource, itemTemplate: ExampleItemTemplate }"></div> 
+        <div id="articlelist" data-win-control="WinJS.UI.ListView" 
+            data-win-options="{ itemDataSource: ExampleData.ItemList.dataSource, itemTemplate: ExampleItemTemplate }"></div> 
            <div id="articlecontent"></div>
     </section>
 </div>

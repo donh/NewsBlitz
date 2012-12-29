@@ -6,7 +6,11 @@ default.html
 html\home.html
 html\index.html
 html\loadingRSS.html
+images\bloomberg.gif
+images\cnn.gif
+images\economist.gif
 images\logo.png
+images\nyt.gif
 images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
@@ -21,6 +25,9 @@ js\loadingRSS.js
 js\navigator.js
 js\nytdata.js
 js\showwallFBfr.js
+pages\bigBox\bigBox.css
+pages\bigBox\bigBox.html
+pages\bigBox\bigBox.js
 pages\DragAndDrop\css\allscenarios.css
 pages\DragAndDrop\css\base-sdk.css
 pages\DragAndDrop\default.html
@@ -48,7 +55,6 @@ pages\DragAndDrop\script\scenario2_and_3.js
 pages\DragAndDrop\script\scenario4.js
 pages\editFBfr.html
 pages\editNYT.html
-pages\exaple.html
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js
@@ -57,7 +63,12 @@ pages\login\login.css
 pages\login\login.html
 pages\login\login.js
 pages\NYTindex.html
+pages\old\old.css
+pages\old\old.html
+pages\old\old.js
 pages\showFBfr.html
+pages\timer\css\allscenarios.css
+pages\timer\css\base-sdk.css
 pages\timer\images\background-sdk.png
 pages\timer\images\emptyCircle.png
 pages\timer\images\emptyCircle2.png
@@ -72,6 +83,8 @@ pages\timer\images\ie-sdk.png
 pages\timer\images\microsoft-sdk.png
 pages\timer\images\placeholder-sdk.png
 pages\timer\images\smiley.png
+pages\timer\script\base-sdk.js
+pages\timer\script\scenario4.js
 pages\timer\timer.css
 pages\timer\timer.html
 pages\timer\timer.js
