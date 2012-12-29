@@ -37,3 +37,13 @@ var feeds = from feed in feedXML.Descendants("item")
                     pubDate = feed.Element("pubDate").Value,
                     guid = feed.Element("guid").Value,
                     thumbnail = feed.Element(media+"thumbnail")!=null ? feed.Element(media+"thumbnail").Attribute("url").Value : ""
+
+
+
+
+Another post about how it should work:
+Looks for an image by custom field (default custom field is ¡§thumbnail¡¨).
+If no image is added by custom field, check for a post image 
+If no image is found, it grabs an image attached to your post.
+If no image is attached, it can extract an image from your post content.
+If no image is found at this point, it will default to an image you set.
