@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T06:01:46.988</Modified>
+      <Modified>2012-12-29T06:10:58.996</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -34,7 +34,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-29T06:03:07.015</Modified>
+      <Modified>2012-12-29T06:03:29.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\html\home.html">
+      <PackagePath>html\home.html</PackagePath>
+      <Modified>2012-12-29T06:09:39.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\html\index.html">
+      <PackagePath>html\index.html</PackagePath>
+      <Modified>2012-12-29T06:10:55.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -78,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-29T06:01:46.926</Modified>
+      <Modified>2012-12-29T06:10:58.928</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

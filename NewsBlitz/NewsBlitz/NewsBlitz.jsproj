@@ -56,6 +56,8 @@
     <Content Include="css\home.css" />
     <Content Include="css\login.css" />
     <Content Include="default.html" />
+    <Content Include="html\home.html" />
+    <Content Include="html\index.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
