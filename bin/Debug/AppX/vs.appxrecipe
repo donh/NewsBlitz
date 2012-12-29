@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>R930</Machine>
+    <WindowsUser>Don</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>C7DB07435DA3E86288AA198A094861C4191F8054E1235EF16931526A064AE4B3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>68e6ffee-f2b2-45c9-a211-15c4aaf2dc1a_1.0.0.0_neutral__ts4x3ns1shrp2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>68e6ffee-f2b2-45c9-a211-15c4aaf2dc1a_ts4x3ns1shrp2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>68e6ffee-f2b2-45c9-a211-15c4aaf2dc1a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Don</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Don\git\NewsBlitz\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-29T10:09:59.273</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\block.css">
+      <PackagePath>css\block.css</PackagePath>
+      <Modified>2012-12-29T09:42:39.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\home.css">
+      <PackagePath>css\home.css</PackagePath>
+      <Modified>2012-12-29T05:51:25.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\login.css">
+      <PackagePath>css\login.css</PackagePath>
+      <Modified>2012-12-29T05:53:06.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-12-29T09:45:11.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2012-12-29T10:02:27.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.css">
+      <PackagePath>pages\login\login.css</PackagePath>
+      <Modified>2012-12-29T10:04:01.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2012-12-29T10:56:53.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\home.html">
+      <PackagePath>html\home.html</PackagePath>
+      <Modified>2012-12-29T06:09:39.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\index.html">
+      <PackagePath>html\index.html</PackagePath>
+      <Modified>2012-12-29T09:29:21.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\html\loadingRSS.html">
+      <PackagePath>html\loadingRSS.html</PackagePath>
+      <Modified>2012-12-29T08:58:03.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\editFBfr.html">
+      <PackagePath>pages\editFBfr.html</PackagePath>
+      <Modified>2012-12-29T10:06:20.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\editNYT.html">
+      <PackagePath>pages\editNYT.html</PackagePath>
+      <Modified>2012-12-29T10:07:07.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2012-12-29T10:02:55.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\loading.html">
+      <PackagePath>pages\loading.html</PackagePath>
+      <Modified>2012-12-29T10:07:42.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.html">
+      <PackagePath>pages\login\login.html</PackagePath>
+      <Modified>2012-12-29T10:03:39.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\NYTindex.html">
+      <PackagePath>pages\NYTindex.html</PackagePath>
+      <Modified>2012-12-29T10:08:11.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\showFBfr.html">
+      <PackagePath>pages\showFBfr.html</PackagePath>
+      <Modified>2012-12-29T10:08:40.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T10:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\block.js">
+      <PackagePath>js\block.js</PackagePath>
+      <Modified>2012-12-29T09:46:39.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-12-29T09:49:26.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\editNYT.js">
+      <PackagePath>js\editNYT.js</PackagePath>
+      <Modified>2012-12-29T09:52:17.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\facebookdata.js">
+      <PackagePath>js\facebookdata.js</PackagePath>
+      <Modified>2012-12-29T09:54:17.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\fb.js">
+      <PackagePath>js\fb.js</PackagePath>
+      <Modified>2012-12-29T09:54:33.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\home.js">
+      <PackagePath>js\home.js</PackagePath>
+      <Modified>2012-12-29T05:58:54.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\index.js">
+      <PackagePath>js\index.js</PackagePath>
+      <Modified>2012-12-29T06:00:30.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\loadingRSS.js">
+      <PackagePath>js\loadingRSS.js</PackagePath>
+      <Modified>2012-12-29T09:55:37.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2012-12-29T09:56:18.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\nytdata.js">
+      <PackagePath>js\nytdata.js</PackagePath>
+      <Modified>2012-12-29T06:01:06.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\showwallFBfr.js">
+      <PackagePath>js\showwallFBfr.js</PackagePath>
+      <Modified>2012-12-29T09:56:59.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2012-12-29T10:02:05.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.js">
+      <PackagePath>pages\login\login.js</PackagePath>
+      <Modified>2012-12-29T10:04:57.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-12-29T10:09:59.208</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
