@@ -13,6 +13,15 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\css\home.css">
+      <PackagePath>css\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\css\login.css">
+      <PackagePath>css\login.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
@@ -35,8 +44,17 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\fb.js">
+      <PackagePath>js\fb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\home.js">
+      <PackagePath>js\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\index.js">
+      <PackagePath>js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\nytdata.js">
+      <PackagePath>js\nytdata.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -1,7 +1,13 @@
 css\default.css
+css\home.css
+css\login.css
 default.html
 images\logo.png
 images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
 js\default.js
+js\fb.js
+js\home.js
+js\index.js
+js\nytdata.js

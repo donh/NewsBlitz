@@ -1,13 +1,13 @@
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\resources.pri
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\AppxManifest.xml
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\NewsBlitz.build.appxrecipe
-C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\priconfig.xml.intermediate
-C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\layout.resfiles.intermediate
-C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\resources.resfiles.intermediate
-C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\pri.resfiles.intermediate
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\priconfig.xml
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\layout.resfiles
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\resources.resfiles
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\pri.resfiles
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\LanguageQualifiers.txt
 C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\ProjectArchitectures.txt
+C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\priconfig.xml.intermediate
+C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\layout.resfiles.intermediate
+C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\resources.resfiles.intermediate
+C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bld\Debug\pri.resfiles.intermediate

@@ -6,7 +6,7 @@
 //    myData.push({"title":"hihi2","text":"yaya"});
     //var show = JSON.parse(myData._keyMap[1].data)
     //console.log(show.yoyo);
-    
+    //hi
     WinJS.Binding.optimizeBindingReferences = true;
 
     var sampleTitle = "New_Blitz";

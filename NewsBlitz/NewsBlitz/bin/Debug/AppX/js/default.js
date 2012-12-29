@@ -24,9 +24,9 @@
 
 //            var articlesList = new WinJS.Binding.List();
             var publicMembers = { ItemList: articlesList };
-            WinJS.Namespace.define("C9Data", publicMembers);
+            WinJS.Namespace.define("ExampleData", publicMembers);
 
-            args.setPromise(WinJS.UI.processAll().then(downloadC9BlogFeed));
+            args.setPromise(WinJS.UI.processAll().then(getNewsBlitzExampleFeed));
         }
     };
 
@@ -44,7 +44,7 @@
         WinJS.UI.Animation.enterPage(articlecontent);
     }
 
-    function downloadC9BlogFeed() {
+    function getNewsBlitzExampleFeed() {
         WinJS.xhr({ url: "http://channel9.msdn.com/coding4fun/articles/RSS" }).then(function (rss) {
             var items = rss.responseXML.querySelectorAll("item");
 

@@ -16,7 +16,7 @@
 </head>
 <body>
     <div id="main">
-        <div id="C9ItemTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+        <div id="ExampleItemTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
             <div class="listItemTemplate">
                 <div class="listItemImage">
                     <img data-win-bind="src: thumbnail" />
@@ -28,10 +28,10 @@
     <header id="banner">
         <button id="backbutton" class="win-backbutton">
         </button>
-        <h1 id="maintitle" class="win-title">Welcome to Channel 9!</h1>
+        <h1 id="maintitle" class="win-title">News Blitz rock!</h1>
     </header>
     <section id="content">
-        <div id="articlelist" data-win-control="WinJS.UI.ListView" data-win-options="{ itemDataSource: C9Data.ItemList.dataSource, itemTemplate: C9ItemTemplate }"></div> 
+        <div id="articlelist" data-win-control="WinJS.UI.ListView" data-win-options="{ itemDataSource: ExampleData.ItemList.dataSource, itemTemplate: ExampleItemTemplate }"></div> 
            <div id="articlecontent"></div>
     </section>
 </div>
