@@ -1,0 +1,39 @@
+this is C#
+
+Question:
+How can i get the thumbanail
+
+if you view the source feed its here:
+
+http://feeds.bbci.co.uk/news/world/middle_east/rss.xml
+
+I've tried the following but the last part wont work for media:thumbnail
+
+XDocument feedXML = XDocument.Load("http://feeds.bbci.co.uk/news/world/middle_east/rss.xml");
+            var feeds = from feed in feedXML.Descendants("item")
+                        select new
+                        {
+                            Title = feed.Element("title").Value,
+                            Link = feed.Element("link").Value,
+                            Description = feed.Element("description").Value,
+                            pubDate = feed.Element("pubDate").Value,
+                            guid = feed.Element("guid").Value,
+                            thumbnail = feed.Element("media:thumbnail").Attribute("url").Value
+                        };
+
+
+Answer:
+
+What you miss is XNamespace + a null check
+
+eds.bbci.co.uk/news/world/middle_east/rss.xml");
+XNamespace media = XNamespace.Get("http://search.yahoo.com/mrss/");
+var feeds = from feed in feedXML.Descendants("item")
+                select new
+                {
+                    Title = feed.Element("title").Value,
+                    Link = feed.Element("link").Value,
+                    Description = feed.Element("description").Value,
+                    pubDate = feed.Element("pubDate").Value,
+                    guid = feed.Element("guid").Value,
+                    thumbnail = feed.Element(media+"thumbnail")!=null ? feed.Element(media+"thumbnail").Attribute("url").Value : ""
