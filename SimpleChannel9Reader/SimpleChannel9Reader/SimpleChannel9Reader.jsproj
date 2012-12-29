@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>14d207d3-f912-4b11-8af3-de36d52b4b78</ProjectGuid>
+    <ProjectGuid>7df7a30e-2f19-4f36-b368-c456fde8aabd</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -46,7 +46,7 @@
   <PropertyGroup>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
-    <DefaultLanguage>zh-TW</DefaultLanguage>
+    <DefaultLanguage>en-US</DefaultLanguage>
     
     <PackageCertificateKeyFile>SimpleChannel9Reader_TemporaryKey.pfx</PackageCertificateKeyFile>
     

@@ -2,13 +2,13 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
 
   <Identity
-    Name="14d207d3-f912-4b11-8af3-de36d52b4b78"
+    Name="7df7a30e-2f19-4f36-b368-c456fde8aabd"
     Version="1.0.0.0"
-    Publisher="CN=Don" />
+    Publisher="CN=davrous" />
 
   <Properties>
     <DisplayName>SimpleChannel9Reader</DisplayName>
-    <PublisherDisplayName>Don</PublisherDisplayName>
+    <PublisherDisplayName>davrous</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
 

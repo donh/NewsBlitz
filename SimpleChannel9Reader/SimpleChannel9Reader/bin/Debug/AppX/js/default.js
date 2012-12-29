@@ -1,53 +1,24 @@
-﻿// 如需空白範本的簡介，請參閱下列文件:
+﻿// For an introduction to the Blank template, see the following documentation:
 // http://go.microsoft.com/fwlink/?LinkId=232509
 (function () {
     "use strict";
+
     WinJS.Binding.optimizeBindingReferences = true;
 
     var app = WinJS.Application;
-    
     var activation = Windows.ApplicationModel.Activation;
+    var articlesList;
 
     app.onactivated = function (args) {
-        var articlesList;
-
-        function downloadC9BlogFeed() {
-            WinJS.xhr({ url: "http://channel9.msdn.com/coding4fun/articles/RSS" }).then(function (rss) {
-                var items = rss.responseXML.querySelectorAll("item");
-                for (var n = 0; n < items.length; n++) {
-                    var article = {};
-                    article.title = items[n].querySelector("title").textContent;
-                    var thumbs = items[n].querySelectorAll("thumbnail");
-                    if (thumbs.length > 1) {
-                        article.thumbnail = thumbs[1].attributes.getNamedItem("url").textContent;
-                        article.content = items[n].textContent;
-                        articlesList.push(article);
-                    }
-                }
-            });
-        }
-
-        function backButtonClick(e) {
-            articlecontent.style.display = "none";
-            articlelist.style.display = "";
-        }
-
-        function itemInvoked(e) {
-            var currentArticle = articlesList.getAt(e.detail.itemIndex);
-            WinJS.Utilities.setInnerHTMLUnsafe(articlecontent, currentArticle.content);
-            articlelist.style.display = "none";
-            articlecontent.style.display = "";
-            WinJS.UI.Animation.enterPage(articlecontent);
-        }
-
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                // TODO: 這個應用程式剛啟動。請在這裡初始化
-                // 您的應用程式。
+                // TODO: This application has been newly launched. Initialize
+                // your application here.
             } else {
-                // TODO: 這個應用程式已經從擱置重新啟用。
-                // 請在這裡還原應用程式狀態。
+                // TODO: This application has been reactivated from suspension.
+                // Restore application state here.
             }
+
             var articlelistElement = document.getElementById("articlelist");
             articlelistElement.addEventListener("iteminvoked", itemInvoked);
             backbutton.addEventListener("click", backButtonClick);
@@ -55,18 +26,49 @@
             articlesList = new WinJS.Binding.List();
             var publicMembers = { ItemList: articlesList };
             WinJS.Namespace.define("C9Data", publicMembers);
+
             args.setPromise(WinJS.UI.processAll().then(downloadC9BlogFeed));
-            WinJS.UI.Animation.enterPage(articlelist);
         }
     };
 
+    function backButtonClick(e) {
+        articlecontent.style.display = "none";
+        articlelist.style.display = "";
+        WinJS.UI.Animation.enterPage(articlelist);
+    }
+
+    function itemInvoked(e) {
+        var currentArticle = articlesList.getAt(e.detail.itemIndex);
+        WinJS.Utilities.setInnerHTMLUnsafe(articlecontent, currentArticle.content);
+        articlelist.style.display = "none";
+        articlecontent.style.display = "";
+        WinJS.UI.Animation.enterPage(articlecontent);
+    }
+
+    function downloadC9BlogFeed() {
+        WinJS.xhr({ url: "http://channel9.msdn.com/coding4fun/articles/RSS" }).then(function (rss) {
+            var items = rss.responseXML.querySelectorAll("item");
+
+            for (var n = 0; n < items.length; n++) {
+                var article = {};
+                article.title = items[n].querySelector("title").textContent;
+                var thumbs = items[n].querySelectorAll("thumbnail");
+                if (thumbs.length > 1) {
+                    article.thumbnail = thumbs[1].attributes.getNamedItem("url").textContent;
+                    article.content = items[n].textContent;
+                    articlesList.push(article);
+                }
+            }
+        });
+    }
+
     app.oncheckpoint = function (args) {
-        // TODO: 這個應用程式即將暫停。請在這裡儲存任何
-        // 需要在擱置間保存的狀態。您可以使用
-        // WinJS.Application.sessionState 物件，這個物件會自動
-        // 在擱置間儲存並還原。如果您需要在
-        // 應用程式暫停之前完成非同步作業，請呼叫
-        // args.setPromise()。
+        // TODO: This application is about to be suspended. Save any state
+        // that needs to persist across suspensions here. You might use the
+        // WinJS.Application.sessionState object, which is automatically
+        // saved and restored across suspension. If you need to complete an
+        // asynchronous operation before your application is suspended, call
+        // args.setPromise().
     };
 
     app.start();

@@ -5,56 +5,56 @@
     <WindowsUser>Don</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>35813CF9564570CA2181DD77F86DD3B678AEFAA4C87C95E12FE102918D91A406</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>14d207d3-f912-4b11-8af3-de36d52b4b78_1.0.0.0_neutral__ts4x3ns1shrp2</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>14d207d3-f912-4b11-8af3-de36d52b4b78_ts4x3ns1shrp2!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>14d207d3-f912-4b11-8af3-de36d52b4b78</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Don</RegisteredPackagePublisher>
+    <RegisteredManifestChecksum>E7E16713CB7B5A90AE691EDD1F3FD8EC01FE16F53E8A92D4DED922089EBF3F0B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7df7a30e-2f19-4f36-b368-c456fde8aabd_1.0.0.0_neutral__8mm67mgyxkm8c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7df7a30e-2f19-4f36-b368-c456fde8aabd_8mm67mgyxkm8c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7df7a30e-2f19-4f36-b368-c456fde8aabd</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=davrous</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T02:05:17.344</Modified>
+      <Modified>2012-12-29T02:19:07.932</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-28T15:23:37.310</Modified>
+      <Modified>2012-08-21T11:44:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-05T10:39:58.000</Modified>
+      <Modified>2012-07-26T03:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-05T10:39:58.000</Modified>
+      <Modified>2012-07-26T03:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-05T10:39:58.000</Modified>
+      <Modified>2012-07-26T03:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-05T10:39:58.000</Modified>
+      <Modified>2012-07-26T03:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-12-28T15:30:33.825</Modified>
+      <Modified>2012-08-21T11:47:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-12-28T14:50:18.162</Modified>
+      <Modified>2012-08-21T11:52:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\SimpleChannel9Reader\SimpleChannel9Reader\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-24T13:47:18.046</Modified>
+      <Modified>2012-08-21T10:44:38.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

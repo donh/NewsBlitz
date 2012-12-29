@@ -7,10 +7,10 @@
 
     如需有關套件資訊清單檔案的詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="14d207d3-f912-4b11-8af3-de36d52b4b78" Version="1.0.0.0" Publisher="CN=Don" ProcessorArchitecture="neutral" />
+  <Identity Name="7df7a30e-2f19-4f36-b368-c456fde8aabd" Version="1.0.0.0" Publisher="CN=davrous" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>SimpleChannel9Reader</DisplayName>
-    <PublisherDisplayName>Don</PublisherDisplayName>
+    <PublisherDisplayName>davrous</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -18,7 +18,7 @@
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
   <Resources>
-    <Resource Language="ZH-TW" />
+    <Resource Language="EN-US" />
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
