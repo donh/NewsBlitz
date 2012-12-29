@@ -3,7 +3,6 @@
 (function () {
     "use strict";
 
-
     var page = WinJS.UI.Pages.define("/html/loadingRSS.html", {
         ready: function (element, options) {
             document.getElementById("settingsWriteSetting").addEventListener("click", settingsWriteSetting, false);
@@ -17,7 +16,8 @@
     var settingName = "exampleSetting";
     var settingValue = "Hello World";
 
-    var feedburnerUrl = "http://rss.cnn.com/rss/edition_world.rss",
+//    var feedburnerUrl = "http://rss.cnn.com/rss/edition_world.rss",
+    var feedburnerUrl = "http://www.nytimes.com/services/xml/rss/nyt/Books.xml",
     feedUrl = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&output=json&num=999&q=" + encodeURIComponent(feedburnerUrl);
     var Rssreadurlsorce = 'Rssreadurlsorce';
     var sourceall = {};
@@ -93,7 +93,7 @@
 
             console.log(arr);
             for (var i in arr) {
-                console.log(i);
+                console.log(i + ": " + list._keyMap[i].data.content);
             }
 //            console.log(arr.length);
 //            console.log(list.dataSource);
@@ -101,7 +101,7 @@
             
 //guess BEGIN
 //            for (var i = 0; i < list.length; i++) {
-            for (var i in arr) {
+            for (var i in list._keyMap) {
                 var article = {};
                 console.log(i);
                 console.log(list[i]);
@@ -110,9 +110,13 @@
                 //                var thumbs = list[i].querySelectorAll("thumbnail");
                 //                if (thumbs.length > 1) {
                 //                    article.thumbnail = thumbs[1].attributes.getNamedItem("url").textContent;
-                article.thumbnail = "";
+                article.thumbnail = list._keyMap[i].data.link;
 
-                article.content = list._keyMap[i].data.content;
+
+                var content = list._keyMap[i].data.content;
+                var link = list._keyMap[i].data.link;
+                var str = "<a href=" + link + ">" + content + "</a>";
+                article.content = str;
                 //                article.content = list[i].textContent;
                 articlesList.push(article);
                 //                }

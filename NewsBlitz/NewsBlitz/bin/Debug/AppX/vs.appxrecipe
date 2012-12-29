@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T08:00:05.207</Modified>
+      <Modified>2012-12-29T08:58:06.517</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +44,10 @@
       <PackagePath>html\index.html</PackagePath>
       <Modified>2012-12-29T06:10:55.548</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\html\loadingRSS.html">
+      <PackagePath>html\loadingRSS.html</PackagePath>
+      <Modified>2012-12-29T08:58:03.235</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -66,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-12-29T08:50:28.380</Modified>
+      <Modified>2012-12-29T09:17:50.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\js\fb.js">
       <PackagePath>js\fb.js</PackagePath>
@@ -90,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\NewsBlitz\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-29T08:00:04.997</Modified>
+      <Modified>2012-12-29T08:58:06.340</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
