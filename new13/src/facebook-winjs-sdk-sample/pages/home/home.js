@@ -39,8 +39,18 @@
                 console.log(!getmylikes ? 'error occurred' : getmylikes.error);
                 return;
             }
-            console.log(getmylikes)
-          //  console.log('br');
+            console.log('getmylikes' + getmylikes.data);
+            var valueofmylikes = {};
+            var mylikes_category_array = new Array();
+            for (var key in getmylikes.data) {
+                mylikes_category_array[key] = getmylikes.data[key].category;
+                //console.log(getmylikes.data[key])
+                if (key > 10) break;
+
+            }
+            localSettings.values['mylikes_catogory'] = JSON.stringify(mylikes_category_array);
+            showlikesfavoritedata();
+            console.log('br');
         });
 
         FB.api('me/friendlists', { fields: 'id,name,list_type' }, function (getmyfriendslist) {
@@ -112,34 +122,6 @@
             // if the user does not have their picture set to public, this will not work below.
             // $('#picture').attr('src', 'http://graph.facebook.com/' + res.id + '/picture');
         });*/
-        FB.api('me/friends', { fields: 'id,name' }, function (getmyallfriends) {
-            if (!getmyallfriends || getmyallfriends.error) {
-                console.log(!getmyallfriends ? 'error occurred' : getmyallfriends.error);
-                return;
-            }
-            console.log(getmyallfriends);
-            var myallfriends_id_array = new Array();
-            var myallfriends_name_array = new Array();
-            //console.log('br');
-            for (var listkey in getmyallfriends.data) {
-                myallfriends_id_array[listkey] = getmyallfriends.data[listkey].id;
-                myallfriends_name_array[listkey] = getmyallfriends.data[listkey].name;
-            }
-
-
-            //localStorage.value['facebookuserfriends'] = getmyallfriends
-            //console.log(localStorage.value['facebookuserfriends']);
-            //console.log('friends' + getmyallfriends.data[0].id);
-
-            /*  for (var key in getmyallfriends.data) {
-                var friend_fbid = getmyallfriends.data[key];
-                myfacebookfriend.push({ id: friend_fbid.id, name: friend_fbid.name });
-
-            }*/
-           // console.log(myfacebookfriend);
-           
-        });
-
     }
     
 })();
