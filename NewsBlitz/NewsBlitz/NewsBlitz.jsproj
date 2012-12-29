@@ -67,6 +67,7 @@
     <Content Include="js\fb.js" />
     <Content Include="js\home.js" />
     <Content Include="js\index.js" />
+    <Content Include="js\loadingRSS.js" />
     <Content Include="js\nytdata.js" />
     <None Include="NewsBlitz_TemporaryKey.pfx" />
   </ItemGroup>
