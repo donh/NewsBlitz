@@ -152,6 +152,48 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\images\smiley.png">
       <PackagePath>pages\DragAndDrop\images\smiley.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\background-sdk.png">
+      <PackagePath>pages\timer\images\background-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptyCircle.png">
+      <PackagePath>pages\timer\images\emptyCircle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptyCircle2.png">
+      <PackagePath>pages\timer\images\emptyCircle2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptySquare.png">
+      <PackagePath>pages\timer\images\emptySquare.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptySquare2.png">
+      <PackagePath>pages\timer\images\emptySquare2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptyTriangle.png">
+      <PackagePath>pages\timer\images\emptyTriangle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\emptyTriangle2.png">
+      <PackagePath>pages\timer\images\emptyTriangle2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\filledCircle.png">
+      <PackagePath>pages\timer\images\filledCircle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\filledSquare.png">
+      <PackagePath>pages\timer\images\filledSquare.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\filledTriangle.png">
+      <PackagePath>pages\timer\images\filledTriangle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\ie-sdk.png">
+      <PackagePath>pages\timer\images\ie-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\microsoft-sdk.png">
+      <PackagePath>pages\timer\images\microsoft-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\placeholder-sdk.png">
+      <PackagePath>pages\timer\images\placeholder-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\images\smiley.png">
+      <PackagePath>pages\timer\images\smiley.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\js\block.js">
       <PackagePath>js\block.js</PackagePath>
     </AppxPackagedFile>
