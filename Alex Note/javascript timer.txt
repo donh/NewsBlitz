@@ -1,0 +1,59 @@
+http://hamisme.blogspot.tw/2011/06/javascripttimer.html
+
+       Javascript的計時功能提供了setTimeout與setInterval這兩種用法，當然也有取消計時功能的函數
+分別是clearTimeout()和clearInterval()。
+
+        而setTimeout與setInterval最大的差異就是setTimeout只有計時一次，而setInterval是會一直重複
+計時直到你用了clearInterval()去取消他。
+
+1. setTimeout and clearTimeout
+
+setTimeout ( expression, timeout );
+clearTimeout ( timeoutId );
+
+Example :
+
+var timeout=0;
+function callme()
+{
+    alert("Hello Timeout!!");
+}
+
+window.onload = function() {
+    timeoutId = setTimeout("callme()",2000);
+}
+   
+   callme函數將會在2秒後被呼叫，timeout的單位為微秒(milliseconds)
+如果你突然想在2秒內去取消計時的功能的話就要用到clearTimeout這個功能了
+以下的範例利用按鈕來取消Timeout的計時功能：
+< input type="button" name="clickMe" value="Click me to cancel!"
+onclick="alertTimerClickHandler();">
+
+
+function alertTimerClickHandler ( ){
+          alert("Cancel timeout");
+    clearTimeout ( timeoutId );
+}
+
+
+2. setInterval and cleanInterval
+
+setInterval ( expression, interval );
+clearInterval ( timeoutId );
+Example:
+var timeoutId = 0;
+function callme(name) {
+   alert(name+": say Hello World!!");
+}
+window.onload = function() {
+    timeoutId = setInterval(function(){callme("You")},2000);
+}
+
+
+   setInterval的用法跟setTimeout是一樣的所以範例就不寫的太複雜了，這邊
+就是會每隔2秒一直重複跳出警告視窗說You: say Hello World!!。如果你沒有要
+帶任何參數到callme函數的話，請參考setTimeout的範例。setInterval的範例
+我是因為要帶參數進去callme函數才在expression的地方寫入
+function(){callme("You")},2000)，這是個不錯的方法，但我不是很確定這是不是
+正確的用法。
+   cleanInterval如何使用就請參考cleanTimeout的範例，這邊我就不多說了。
