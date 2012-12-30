@@ -2,10 +2,10 @@
     "use strict";
 
     var dataArray = [
-    { source: "CNN", description: "CNN", picture: "images/cnn.gif" },
-    { source: "Bloomberg", description: "Bloomberg", picture: "images/bloomberg.gif" },
-    { source: "New York Times", description: "New York Times", picture: "images/nyt.gif" },
-    { source: "The Economist", description: "The Economist", picture: "images/economist.gif" }
+    { source: "CNN", description: "CNN", picture: "images/cnn.gif", page: "pages/smallBox/cnn.html" },
+    { source: "Bloomberg", description: "Bloomberg", picture: "images/bloomberg.gif", page: "pages/smallBox/bloomberg.html" },
+    { source: "New York Times", description: "New York Times", picture: "images/nyt.gif", page: "pages/smallBox/nyt.html" },
+    { source: "The Economist", description: "The Economist", picture: "images/economist.gif", page: "pages/smallBox/economist.html" },
     ];
 
     var app = WinJS.Application;
@@ -22,20 +22,6 @@
         };
     WinJS.Namespace.define("DataExample", publicMembers);
 
-
-
-/*
-    WinJS.Application.onmainwindowactivated = function (e) {
-        if (e.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
-            WinJS.UI.processAll().then(function () {
-                var sourceList = document.getElementById('sourceList').winControl;
-                sourceList.dataSource = dataArray;
-                sourceList.addEventListener('iteminvoked', SelectItem);
-            });
-        }
-    }
-    */
-    
     
     WinJS.UI.Pages.define("/pages/bigBox/bigBox.html", {
         // This function is called whenever a user navigates to this page. It
@@ -44,11 +30,6 @@
             var sourceList = document.getElementById('basicListView').winControl;
             sourceList.dataSource = dataList;
             sourceList.addEventListener('iteminvoked', SelectItem);
-/*
-            WinJS.Utilities.query('#login').listen('click', loginClicked, false);
-            WinJS.Utilities.query('#NewYorkTimes').listen('click', bigBoxClicked, false);
-            WinJS.Utilities.query('#CNN').listen('click', bigBoxClicked, false);
-            */
         },
 
         unload: function () {
@@ -68,31 +49,8 @@
         selecteSource.innerText = selectedItem.data.source;
         var selecteSourceImg = document.getElementById('selectedSourceImg');
         selecteSourceImg.src = selectedItem.data.picture;
+        var page = selectedItem.data.page;
+        console.log(page);
+        WinJS.Navigation.navigate(page);
     }
-
-
-
-
-//    app.addEventListener("activated", function (args) {
-    dataList.addEventListener("clicked", function (args) {
-        if (args.detail.kind === activation.ActivationKind.launch) {
-
-
-            if (app.sessionState.history) {
-                //                nav.history = app.sessionState.history;
-            }
-            /* args.setPromise(WinJS.UI.processAll().then(function () {
-                 // Navigate to either the first scenario or to the last running scenario
-                 // before suspension or termination.
-                 var url = WinJS.Application.sessionState.lastUrl || scenarios[0].url;
-                 return WinJS.Navigation.navigate(url);
-             }));*/
-            console.log("hihi");
-            args.setPromise(WinJS.UI.processAll().then(function () {
-                var url = WinJS.Application.sessionState.lastUrl || scenarios[0].url;
-                return nav.navigate(url);
-            }));
-        }
-    });
-
 })();
