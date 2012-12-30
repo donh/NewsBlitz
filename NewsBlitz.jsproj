@@ -122,6 +122,9 @@
     <Content Include="pages\old\old.js" />
     <Content Include="pages\showFBfr.html" />
     <Content Include="pages\smallBox\bloombergdata.js" />
+    <Content Include="pages\smallBox\bloomberg.html" />
+    <Content Include="pages\smallBox\economist.html" />
+    <Content Include="pages\smallBox\nyt.html" />
     <Content Include="pages\smallBox\cnn.html" />
     <Content Include="pages\smallBox\cnndata.js" />
     <Content Include="pages\smallBox\economistdata.js" />

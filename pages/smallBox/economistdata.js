@@ -1,7 +1,6 @@
-﻿var economistData = new WinJS.Binding.List([
-//        { category: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/60Banana.png", style: "color:#000;" },
-//        { category: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/60Lemon.png", style: "width:100%;height:10px;background:#fff" },
-
+﻿(function () {
+    "use strict";
+    var economistData = [
      { category: "The world this week", url: "http://www.economist.com/rss/the_world_this_week_rss.xml" },
      { category: "Briefings", url: "http://www.economist.com/feeds/print-sections/102/briefings2.xml" },
      { category: "Letters", url: "http://www.economist.com/feeds/print-sections/68/letters.xml" },
@@ -14,4 +13,13 @@
      { category: "Middle East and Africa", url: "http://www.economist.com/feeds/print-sections/99/middle-east-africa.xml" },
      { category: "United States", url: "http://www.economist.com/feeds/print-sections/71/united-states.xml" },
      { category: "Indicators", url: "http://www.economist.com/feeds/print-sections/84/indicators.xml" },
-]);
+    ];
+    var dataList = new WinJS.Binding.List(economistData);
+
+    // Create a namespace to make the data publicly accessible. 
+    var publicMembers =
+    {
+        itemList: dataList
+    };
+    WinJS.Namespace.define("DataExample", publicMembers);
+})();

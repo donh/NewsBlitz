@@ -109,6 +109,15 @@
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\showFBfr.html">
       <PackagePath>pages\showFBfr.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\bloomberg.html">
+      <PackagePath>pages\smallBox\bloomberg.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\economist.html">
+      <PackagePath>pages\smallBox\economist.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\nyt.html">
+      <PackagePath>pages\smallBox\nyt.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\cnn.html">
       <PackagePath>pages\smallBox\cnn.html</PackagePath>
     </AppxPackagedFile>

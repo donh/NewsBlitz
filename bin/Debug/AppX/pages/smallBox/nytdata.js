@@ -1,7 +1,6 @@
-﻿var nytimesData = new WinJS.Binding.List([
-//        { category: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/60Banana.png", style: "color:#000;" },
-//        { category: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/60Lemon.png", style: "width:100%;height:10px;background:#fff" },
-
+﻿(function () {
+    "use strict";
+    var nytimesData = [
      { category: "Arts", url: "http://www.nytimes.com/services/xml/rss/nyt/Arts.xml" },
      { category: "Automobiles", url: "http://www.nytimes.com/services/xml/rss/nyt/Automobiles.xml" },
      { category: "Books", url: "http://www.nytimes.com/services/xml/rss/nyt/Books.xml" },
@@ -29,4 +28,13 @@
      { category: "Travel", url: "http://www.nytimes.com/services/xml/rss/nyt/Travel.xml" },
      { category: "Washington", url: "http://www.nytimes.com/services/xml/rss/nyt/Washington.xml" },
      { category: "Week in Review", url: "http://www.nytimes.com/services/xml/rss/nyt/WeekinReview.xml" },
-]);
+    ];
+    var dataList = new WinJS.Binding.List(nytimesData);
+
+    // Create a namespace to make the data publicly accessible. 
+    var publicMembers =
+    {
+        itemList: dataList
+    };
+    WinJS.Namespace.define("DataExample", publicMembers);
+})();

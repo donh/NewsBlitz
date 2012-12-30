@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>CNN</title>
+    <link href="smallBox.css" rel="stylesheet" />
+    <script src="bloombergdata.js"></script>
+
+    </head>
+    <body>
+         <div id="sourceList" data-win-control="WinJS.Binding.Template">
+        <div>
+
+            <!-- Displays the "picture" field. -->
+            <img data-win-bind="alt: category; src: url" />
+            <div>
+
+                <!-- Displays the "title" field. -->
+                <h4 data-win-bind="innerText: category"></h4>
+
+                <!-- Displays the "text" field. --> 
+                <h6 data-win-bind="innerText: url"></h6>
+            </div>
+        </div>
+    </div>     
+
+    <div id="basicListView" data-win-control="WinJS.UI.ListView" 
+        data-win-options="{itemDataSource : DataExample.itemList.dataSource, itemTemplate: select('#sourceList')}">
+    </div>
+    </body>
+</html>

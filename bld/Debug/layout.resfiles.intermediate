@@ -66,10 +66,13 @@ pages\old\old.css
 pages\old\old.html
 pages\old\old.js
 pages\showFBfr.html
+pages\smallBox\bloomberg.html
 pages\smallBox\bloombergdata.js
 pages\smallBox\cnn.html
 pages\smallBox\cnndata.js
+pages\smallBox\economist.html
 pages\smallBox\economistdata.js
+pages\smallBox\nyt.html
 pages\smallBox\nytdata.js
 pages\smallBox\smallBox.css
 pages\smallBox\smallBox.html
