@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Don\git\NewsBlitz\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-29T19:22:19.329</Modified>
+      <Modified>2012-12-29T19:56:21.626</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -92,13 +92,17 @@
       <PackagePath>html\loadingRSS.html</PackagePath>
       <Modified>2012-12-29T14:49:00.137</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\bigBox - 複製.html">
+      <PackagePath>pages\smallBox\bigBox - 複製.html</PackagePath>
+      <Modified>2012-12-29T18:22:48.889</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.html">
       <PackagePath>pages\smallBox\smallBox.html</PackagePath>
       <Modified>2012-12-29T18:45:16.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.html">
       <PackagePath>pages\bigBox\bigBox.html</PackagePath>
-      <Modified>2012-12-29T18:22:48.889</Modified>
+      <Modified>2012-12-30T00:06:03.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\default.html">
       <PackagePath>pages\DragAndDrop\default.html</PackagePath>
@@ -362,11 +366,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\smallBox.js">
       <PackagePath>pages\smallBox\smallBox.js</PackagePath>
-      <Modified>2012-12-29T18:33:00.959</Modified>
+      <Modified>2012-12-29T19:56:18.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\bigBox\bigBox.js">
       <PackagePath>pages\bigBox\bigBox.js</PackagePath>
-      <Modified>2012-12-29T18:33:00.959</Modified>
+      <Modified>2012-12-30T00:04:38.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\DragAndDrop\script\base-sdk.js">
       <PackagePath>pages\DragAndDrop\script\base-sdk.js</PackagePath>
@@ -386,11 +390,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\login\login.js">
       <PackagePath>pages\login\login.js</PackagePath>
-      <Modified>2012-12-29T16:27:03.805</Modified>
+      <Modified>2012-12-29T19:48:39.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\old\old.js">
       <PackagePath>pages\old\old.js</PackagePath>
-      <Modified>2012-12-29T17:29:48.836</Modified>
+      <Modified>2012-12-29T19:47:23.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\timer\script\base-sdk.js">
       <PackagePath>pages\timer\script\base-sdk.js</PackagePath>
@@ -410,7 +414,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-29T19:22:19.262</Modified>
+      <Modified>2012-12-29T19:56:21.436</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

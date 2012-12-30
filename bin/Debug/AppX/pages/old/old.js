@@ -16,7 +16,7 @@
     ];
 
 
-    //    var app = WinJS.Application;
+    //    var app = WinJS.Application;00000000000000000000
     //    var activation = Windows.ApplicationModel.Activation;
     var nav = WinJS.Navigation;
 

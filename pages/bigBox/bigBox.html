@@ -8,24 +8,32 @@
 
     </head>
     <body>
-         <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template">
-        <div>
-
-            <!-- Displays the "picture" field. -->
-            <img data-win-bind="alt: source; src: picture" />
+         <div id="sourceList" data-win-control="WinJS.Binding.Template">
             <div>
 
-                <!-- Displays the "title" field. -->
+            <!-- Displays the "picture" field. -->
+            <img data-win-bind="alt: source; src: picture" style="width:350px;height:175px;"/>
+
+            <div>
+
+                <!-- Displays the "source" field. -->
                 <h4 data-win-bind="innerText: source"></h4>
 
-                <!-- Displays the "text" field. --> 
+                <!-- Displays the "description" field. --> 
                 <h6 data-win-bind="innerText: description"></h6>
             </div>
         </div>
     </div>     
 
     <div id="basicListView" data-win-control="WinJS.UI.ListView" 
-        data-win-options="{itemDataSource : DataExample.itemList.dataSource, itemTemplate: select('#mediumListIconTextTemplate')}">
+        data-win-options="{itemDataSource : DataExample.itemList.dataSource, itemTemplate: select('#sourceList'), oniteminvoked : SelectItem}">
     </div>
+
+<div id="ouputDiv" >
+<span>You Selected </span>
+<div id="selectedSource" style="height:20px;" ></div> <br />
+<img id="selectedSourceImg" style="width:300px;height:175px;"/>
+</div>
+
     </body>
 </html>
