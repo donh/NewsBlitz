@@ -150,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\bloomberg.html">
       <PackagePath>pages\smallBox\bloomberg.html</PackagePath>
-      <Modified>2012-12-30T02:14:04.076</Modified>
+      <Modified>2012-12-30T02:34:25.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Don\git\NewsBlitz\pages\smallBox\economist.html">
       <PackagePath>pages\smallBox\economist.html</PackagePath>
