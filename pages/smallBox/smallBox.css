@@ -7,3 +7,114 @@
 {
     height: 500px; 
 }
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    #main {
+        width: 100%;
+        height: 100%;
+        display: -ms-grid;
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 132px 1fr;
+    }
+
+    #banner {
+        width: 100%;
+        height: 100%;
+        -ms-grid-row: 1;
+        display: -ms-grid;
+        -ms-grid-columns: 120px 1fr;
+        -ms-grid-rows: 1fr;
+    }
+
+    #backbutton {
+        margin-top: 54px;
+        margin-left: 40px;
+    }
+
+    #maintitle {
+        -ms-grid-column: 2;
+        -ms-grid-row-align: center;
+    }
+
+    #content {
+        width: 100%;
+        height: 100%;
+        -ms-grid-row: 2;
+    }
+
+    #articlelist {
+        width: 100%;
+        height: 100%;
+    }
+
+        #articlelist .win-item {
+            width: 250px;
+            height: 250px;
+        }
+
+        .listItemTemplate {
+        	margin: 8px;
+        }
+
+        .listItemImage img {
+        	width: 234px;
+        	height: 165px;
+        }
+
+        .win-surface {
+        	margin-left: 112px;
+        }
+
+        #articlecontent {
+        	width: calc(100%-120px);
+        	height: 100%;
+        	padding-left: 120px;
+        	column-width: 480px;
+        	column-gap: 80px;
+        	overflow-x: auto;
+        	overflow-y: hidden;
+        }
+
+        #articlecontent pre {
+        	background-color: #666;
+        	overflow-x: auto;
+        	overflow-y: hidden;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: auto 1fr;
+        margin-left: 20px;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            margin: 0;
+            margin-right: 10px;
+            margin-top: 76px;
+        }
+
+            .fragment header[role=banner] .win-backbutton:disabled {
+                display: none;
+            }
+
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 2;
+            margin-left: 0;
+            margin-top: 68px;
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: 100px 1fr;
+    }
+    .fragment header[role=banner] .win-backbutton {
+        margin-left: 29px;
+    }
+}
+

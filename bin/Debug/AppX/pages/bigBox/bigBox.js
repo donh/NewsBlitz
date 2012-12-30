@@ -45,10 +45,10 @@
     
     function SelectItem(e) {
         var selectedItem = dataList._keyMap[e.detail.itemIndex];
-        var selecteSource = document.getElementById('selectedSource');
-        selecteSource.innerText = selectedItem.data.source;
-        var selecteSourceImg = document.getElementById('selectedSourceImg');
-        selecteSourceImg.src = selectedItem.data.picture;
+//        var selecteSource = document.getElementById('selectedSource');
+//        selecteSource.innerText = selectedItem.data.source;
+//        var selecteSourceImg = document.getElementById('selectedSourceImg');
+//        selecteSourceImg.src = selectedItem.data.picture;
         var page = selectedItem.data.page;
         console.log(page);
         WinJS.Navigation.navigate(page);
